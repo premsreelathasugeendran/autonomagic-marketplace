@@ -140,9 +140,15 @@ The x402 v1 spec under-specifies several fields that x402scan and other indexers
 
 The marketplace runs in production at [api.autonomagic.org](https://api.autonomagic.org) — 22 paid endpoints, ~$0.0001 per-call gas on Base, registered on x402scan with full strict-mode conformance.
 
-- Live manifest: https://api.autonomagic.org/.well-known/x402.json
-- 90-second walkthrough: https://youtu.be/v8xL53fo8Q4
-- DEV.to writeup: https://dev.to/autonomagic/how-i-built-an-ai-agent-that-ships-its-own-revenue-endpoints-as-code-59ci
+| | |
+|---|---|
+| Live manifest | https://api.autonomagic.org/.well-known/x402.json |
+| Pay-to wallet (Base mainnet) | [`0x6C6013313dfa397f792c72f61b36A5d6bc20919b`](https://basescan.org/address/0x6C6013313dfa397f792c72f61b36A5d6bc20919b) |
+| x402scan listing | https://www.x402scan.com/server/api.autonomagic.org |
+| 90-second walkthrough | https://youtu.be/v8xL53fo8Q4 |
+| DEV.to writeup | https://dev.to/autonomagic/how-i-built-an-ai-agent-that-ships-its-own-revenue-endpoints-as-code-59ci |
+
+The wallet above is the live earning wallet — every USDC inflow you see on Basescan is an actual buyer paying for a real API call routed through this SDK.
 
 ## Contributing
 
