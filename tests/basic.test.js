@@ -113,7 +113,7 @@ const fakeEndpoint = {
 
 const fakeCtx = {
   network: "eip155:8453",
-  payToAddress: "0x6C6013313dfa397f792c72f61b36A5d6bc20919b",
+  payToAddress: "0x000000000000000000000000000000000000dEaD",
   publicBaseUrl: "https://api.example.com",
   serviceName: "Example Service",
   serviceDescription: "Example.",
