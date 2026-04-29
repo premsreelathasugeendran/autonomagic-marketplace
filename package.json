@@ -1,0 +1,43 @@
+{
+  "name": "autonomagic-marketplace",
+  "version": "0.1.0",
+  "description": "Open plugin marketplace primitive for x402 — drop a JS file, the agent hot-reloads it as a paid HTTP endpoint in 400ms. Bazaar-discovery compliant.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node tests/basic.test.js",
+    "example": "node examples/standalone-server.js"
+  },
+  "keywords": [
+    "x402",
+    "agentic-payments",
+    "ai-agents",
+    "base",
+    "ethereum",
+    "plugin-loader",
+    "marketplace",
+    "bazaar-discovery",
+    "usdc",
+    "machine-payments"
+  ],
+  "author": "Prem Sugendran <autonomagic.ai@gmail.com> (https://api.autonomagic.org)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/premsreelathasugeendran/autonomagic-marketplace.git"
+  },
+  "homepage": "https://api.autonomagic.org",
+  "bugs": {
+    "url": "https://github.com/premsreelathasugeendran/autonomagic-marketplace/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "src",
+    "SPEC.md",
+    "LICENSE",
+    "README.md"
+  ],
+  "dependencies": {}
+}
